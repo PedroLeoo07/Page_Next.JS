@@ -26,7 +26,7 @@ export default function Conteudo() {
             <ul>
                 <h3 className={styles.title}>Gostos</h3>
                 <p className={styles.p}>No meu tempo livre gosto bastante de treinar</p>
-                <p className={styles.p}>Eu gosto bastante de escrever poemas</p>
+                <p className={styles.p}>Eu gosto bastante de escrever</p>
             </ul>
             <button className={styles.button} onClick={goBack}>Voltar</button>
         </div>

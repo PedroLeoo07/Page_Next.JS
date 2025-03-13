@@ -13,12 +13,12 @@ export default function Input() {
         <div className={styles.container}>
             <div className={styles.login}>
                 <form className={styles.form} onSubmit={handleSubmit}>
-                    <h1>Registrar-se</h1>
-                    <label className={styles.email}>Nome</label>
+                    <h1>welcome!!</h1>
+                    <label className={styles.email}>Name</label>
                     <input className={styles.input1} type="text" />
-                    <label className={styles.senha}>Sobrenome</label>
+                    <label className={styles.senha}>Surname</label>
                     <input className={styles.input2} type="text" />
-                    <button className={styles.button} type="submit">Registrar-se</button>
+                    <button className={styles.button} type="submit">to enter</button>
                 </form>
             </div>
         </div>

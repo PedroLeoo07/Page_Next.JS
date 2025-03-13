@@ -16,9 +16,10 @@ export default function Home() {
                     <h1>Login</h1>
                     <label className={styles.email}>Email</label>
                     <input className={styles.input1} type="text" />
-                    <label className={styles.senha}>Senha</label>
+                    <label className={styles.senha}>Password</label>
                     <input className={styles.input2} type="password" />
-                    <button className={styles.button} type="submit">Entrar</button>
+                    <button className={styles.button} type="submit">sign in</button>
+                    <button className={styles.button}  type="submit">sign up</button>
                 </form>
             </div>
         </div>
