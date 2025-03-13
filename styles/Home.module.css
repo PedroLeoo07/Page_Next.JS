@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 .login{
- border: 1px solid deeppink;
+ border: darkblue 1px solid;
  width: 400px;
  height: 500px;
- color: deeppink;
+ color: white;
  border-radius: 20px;
  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
  overflow: hidden;
@@ -26,7 +28,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    background-color: darkblue;
 }
 
 .email{
@@ -85,5 +87,5 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    color: red;
+    color: blue;
 }

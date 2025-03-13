@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 .conteudo {
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
+    background-color: slateblue;
+    color: white;
+    padding: 40px;
 }
+
 
 .button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #0070f3;
-    color: white;
+    background-color: midnightblue;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -16,4 +19,15 @@
 
 .button:hover {
     background-color: #005bb5;
+}
+
+.title{
+    color: black;
+}
+
+.p{
+  color: white;
+  font: 900;
+  font-style: inherit;
+  font-display: 20px;  
 }
