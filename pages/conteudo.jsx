@@ -10,6 +10,8 @@ export default function Conteudo() {
 
     return (
         <div className={styles.conteudo}>
+            <div className={styles.port}>
+            <img className={styles.img} src="https://avatars.githubusercontent.com/u/158210052?s=96&v=4" alt="Dev Olhando pra câmera" />
             <h1 className={styles.title}>Sobre Mim</h1>
             <p className={styles.p}>O meu nome é Leonardo Oliveira atualmente tenho 17 anos, atualmente
             estou estudando na rede Sesi e Senai, na rede Sesi estou no 
@@ -29,6 +31,8 @@ export default function Conteudo() {
                 <p className={styles.p}>Eu gosto bastante de escrever</p>
             </ul>
             <button className={styles.button} onClick={goBack}>Voltar</button>
+            </div>
+           
         </div>
     );
 }

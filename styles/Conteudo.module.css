@@ -31,3 +31,9 @@
   font-style: inherit;
   font-display: 20px;  
 }
+
+.img{
+    border-radius: 20px;
+    width: 20rem;
+    height: 15rem;
+}
