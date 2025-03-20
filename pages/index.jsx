@@ -13,6 +13,7 @@ export default function Home() {
         <div className={styles.container}>
             <div className={styles.login}>
                 <form className={styles.form} onSubmit={handleSubmit}>
+                    
                     <h1>Login</h1>
                     <label className={styles.email}>Email</label>
                     <input className={styles.input1} type="text" />

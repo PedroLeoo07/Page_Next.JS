@@ -1,39 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 .conteudo {
-    background-color: slateblue;
-    color: white;
     padding: 40px;
-}
-
-
-.button {
+    background-color: #ffffff;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .port {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #000000;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff0000;
+  }
+  
+  .p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .titleHab {
+    font-size: 28px;
+    color: #333;
     margin-top: 20px;
-    padding: 10px 20px;
-    background-color: midnightblue;
-    color: rgb(0, 0, 0);
+  }
+  
+  .habilidades {
+    font-size: 32px;
+    color: #ff0000;
+    margin-bottom: 20px;
+  }
+  
+  .hab {
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .img:hover {
+    transform: scale(1.1);
+  }
+  
+  .button {
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
-}
-
-.button:hover {
-    background-color: #005bb5;
-}
-
-.title{
-    color: black;
-}
-
-.p{
-  color: white;
-  font: 900;
-  font-style: inherit;
-  font-display: 20px;  
-}
-
-.img{
-    border-radius: 20px;
-    width: 20rem;
-    height: 15rem;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+.div{
+    display: flex;
+    flex-direction: row;
 }

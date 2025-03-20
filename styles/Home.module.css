@@ -29,6 +29,10 @@
     align-items: center;
     height: 100vh;
     background-color: darkblue;
+    background-image: url(../public/fundoImage.avif);
+    background-repeat: no-repeat;
+    background-size: 300vh;
+    background-position: center;
 }
 
 .email{
