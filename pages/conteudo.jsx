@@ -52,6 +52,14 @@ export default function Conteudo() {
                <img className={styles.img} src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" alt="Logo do MySQL" />
                 </div>  
                 </ul>
+                <ul className={styles.ul}>
+            <h3 className={styles.hab}>Minhas Redes Sociais</h3>
+            <div className={styles.div}>
+              <a href="https://www.instagram.com/oliveir._leo/"> <img className={styles.img} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png" alt="Logo do Instagram" /></a> 
+              <a href="https://github.com/PedroLeoo07">  <img className={styles.img} src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Logo do GitHub" /></a> 
+              <a href="https://www.linkedin.com/in/leonardo-oliveira-38aab7321/">  <img className={styles.img} src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="Logo do LinkedIn" /> </a> 
+                </div>
+                </ul>
             <button className={styles.button} onClick={goBack}>Voltar</button>
             </div>
            
