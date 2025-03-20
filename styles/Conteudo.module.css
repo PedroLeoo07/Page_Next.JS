@@ -1,7 +1,7 @@
 .conteudo {
     padding: 40px;
-    background-color: #ffffff;
-    color: #333;
+    background-color: darkblue;
+    color: #000000;
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
   }
@@ -45,7 +45,7 @@
   
   .titleHab {
     font-size: 28px;
-    color: #333;
+    color: #000000;
     margin-top: 20px;
   }
   
@@ -57,7 +57,7 @@
   
   .hab {
     font-size: 24px;
-    color: #555;
+    color: #000000;
     margin-top: 20px;
   }
   
@@ -75,7 +75,7 @@
   .button {
     padding: 15px 30px;
     background-color: #ff0000;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -84,10 +84,282 @@
   }
   
   .button:hover {
-    background-color: #45a049;
+    background-color: #ffffff;
   }
   
 .div{
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 20px;
+        background-color: darkblue;
+        color: #000000;
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+      }
+      
+      .port {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #000000;
+      }
+      
+      .title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #ff0000;
+      }
+      
+      .p {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      
+      .ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 30px;
+      }
+      
+      .titleHab {
+        font-size: 28px;
+        color: #000000;
+        margin-top: 20px;
+      }
+      
+      .habilidades {
+        font-size: 32px;
+        color: #ff0000;
+        margin-bottom: 20px;
+      }
+      
+      .hab {
+        font-size: 24px;
+        color: #000000;
+        margin-top: 20px;
+      }
+      
+      .img {
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        transition: transform 0.3s;
+      }
+      
+      .img:hover {
+        transform: scale(1.1);
+      }
+      
+      .button {
+        padding: 15px 30px;
+        background-color: #ff0000;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s;
+      }
+      
+      .button:hover {
+        background-color: #ffffff;
+      }
+      
+    .div{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+        padding: 20px;
+        background-color: darkblue;
+        color: #000000;
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+      }
+      
+      .port {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #000000;
+      }
+      
+      .title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #ff0000;
+      }
+      
+      .p {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      
+      .ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 30px;
+      }
+      
+      .titleHab {
+        font-size: 28px;
+        color: #000000;
+        margin-top: 20px;
+      }
+      
+      .habilidades {
+        font-size: 32px;
+        color: #ff0000;
+        margin-bottom: 20px;
+      }
+      
+      .div {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #000000;
+      }
+      
+      .button {
+        padding: 15px 30px;
+        background-color: #ff0000;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s;
+      }
+      
+      .button:hover {
+        background-color: #ffffff;
+      }
+}
+
+@media (max-widht: 320px) {
+    .conteudo {
+        padding: 20px;
+        background-color: darkblue;
+        color: #000000;
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+      }
+      
+      .port {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #000000;
+      }
+      
+      .title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #ff0000;
+      }
+      
+      .p {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      
+      .ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 30px;
+      }
+      
+      .titleHab {
+        font-size: 28px;
+        color: #000000;
+        margin-top: 20px;
+      }
+      
+      .habilidades {
+        font-size: 32px;
+        color: #ff0000;
+        margin-bottom: 20px;
+      }
+      
+      .div {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #000000;
+      }
+      
+      .button {
+        padding: 15px 30px;
+        background-color: #ff0000;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s;
+      }
+      
+      .button:hover {
+        background-color: #ffffff;
+      }
+  
 }
