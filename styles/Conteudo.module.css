@@ -5,6 +5,12 @@
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
   }
+
+  .div1{
+    display: flex;
+    justify-content: center;
+    
+  }
   
   .port {
     max-width: 900px;
